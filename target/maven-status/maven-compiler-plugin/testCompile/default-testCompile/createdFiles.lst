@@ -1,0 +1,4 @@
+com\qa\stepDefinition\FormArtifactSubmission.class
+com\qa\stepDefinition\AssignmentSubmission.class
+com\qa\stepDefinition\LoginApplication.class
+com\qa\runner\RunnerTest.class

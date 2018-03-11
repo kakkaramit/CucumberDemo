@@ -1,0 +1,14 @@
+com\qa\pages\LoginPage.class
+com\qa\utils\FileUploadMethod.class
+com\qa\utils\ClickOnElementMethods.class
+com\qa\utils\DataInputMethods.class
+com\qa\utils\SelectElementByType.class
+com\qa\utils\ValidationMethods.class
+com\qa\utils\JavascriptAlertMethods.class
+com\qa\utils\TestCaseFailed.class
+com\qa\pages\FormEntrySubmission.class
+com\qa\utils\BaseTest.class
+com\qa\pages\AssignmentSubmissionPage.class
+com\qa\utils\BrowserFactory.class
+com\qa\utils\Log.class
+com\qa\utils\ScreenShotMethods.class

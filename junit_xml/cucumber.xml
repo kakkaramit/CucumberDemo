@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="145.279712">
+<testcase classname="Test Login application scenarios" name="Test login with invalid cerdentials" time="19.967093">
+<system-out><![CDATA[Given Open browser Firefox and start browser................................passed
+When I enter invalid "akakkar" and invalid "t3stf1rst"......................passed
+Then On clicking 'Login' button, an error message 'Invalid Username/Password' is displayed to the user..passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login application scenarios" name="Test login with valid username and invalid password" time="3.301576">
+<system-out><![CDATA[When I enter valid "akakkar0000" and invalid "123456".......................passed
+Then on clicking login button, an error message invalid username/password is displayed..passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login application scenarios" name="Test login with valid username and invalid password" time="3.429593">
+<system-out><![CDATA[When I enter invalid "akakkar" and valid "t3stf1rst"........................passed
+Then on clicking login button2, an error message invalid username/password is displayed..passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login application scenarios" name="Test login with valid cerdentials" time="33.323849">
+<system-out><![CDATA[When I enters valid "odobbs" and valid "t3stf1rst"..........................passed
+Then user should be able to login successfully and Home text is displayed as a header of the page..passed
+And verify page title and url...............................................passed
+And close driver............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Submit an assignment" name="Check wheather assignment is displayed under 'Assigments' sidemenu." time="8.353315">
+<system-out><![CDATA[Given Open browser and login to the application.............................passed
+When User clicks 'Courses' sidemenu.........................................passed
+Then Application navigates to Courses > My Courses sie menu.................passed
+When User clicks 'Coursework' sidemenu......................................passed
+Then Application navigates to 'Assignments' side menu.......................passed
+And Assignment is displayed on the page and name of assignment is in link form.passed
+]]></system-out>
+</testcase>
+<testcase classname="Submit an assignment" name="Check whether user has attached an artifact within assignment" time="19.702117">
+<system-out><![CDATA[Given I am on assignment side menu..........................................passed
+When I clicked on name of an assignment.....................................passed
+Then application navigates and displayed assignment details page............passed
+When I clicked select button corresponing to an artifact....................passed
+Then An artifact form is displayed in non editable mode.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Submit an assignment" name="Enter data in the form and save it" time="38.782833">
+<system-out><![CDATA[Given I am on the Form page.................................................passed
+When I selected date for 'Date' type entry..................................passed
+And I input value for 'Decimal' type entry..................................passed
+And I select radio button for 'Likert' type entry...........................passed
+And I select value from 'Dropdown' type entry...............................passed
+And I upload file for 'File' type entry.....................................passed
+And I select radio dutton for 'Radio' type entry............................passed
+And i select check box for 'Checkbox' type entry............................passed
+And I select first radio button for 'Rubric' type entry.....................passed
+And I select second radio button for 'Rubric' type entry....................passed
+And I input text in 'Single Line Text' tupe entry...........................passed
+And I press "Add" button....................................................passed
+Then I should see "Form saved" and application navigates to Assignment details page..passed
+Then I submiited the assignment.............................................passed
+And select yes for the submission alert message.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Submit an assignment" name="Recall assignment" time="18.419336">
+<failure message="com.qa.utils.TestCaseFailed: Text Not Matched, Actual text is:Pending&#13;&#10;&#9;at com.qa.utils.ValidationMethods.validateElementText(ValidationMethods.java:106)&#13;&#10;&#9;at com.qa.pages.AssignmentSubmissionPage.validatePendingFlag(AssignmentSubmissionPage.java:105)&#13;&#10;&#9;at com.qa.stepDefinition.AssignmentSubmission.an_assignment_is_recalled_and_pending_flag_is_displayed_corresponing_to_an_assignment(AssignmentSubmission.java:97)&#13;&#10;&#9;at ✽.Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(E:/Selenium Project Folder/WorkBook 4/CucumberSeleniumDemo/src/main/java/com/qa/features/AssignmentSubmission.feature:48)&#13;&#10;"><![CDATA[When I selected checkbox corresponding to an assignment.....................passed
+And click 'Recall' button...................................................passed
+Then An assignment is recalled and pending flag is displayed corresponing to an assignment..failed
+
+StackTrace:
+com.qa.utils.TestCaseFailed: Text Not Matched, Actual text is:Pending
+	at com.qa.utils.ValidationMethods.validateElementText(ValidationMethods.java:106)
+	at com.qa.pages.AssignmentSubmissionPage.validatePendingFlag(AssignmentSubmissionPage.java:105)
+	at com.qa.stepDefinition.AssignmentSubmission.an_assignment_is_recalled_and_pending_flag_is_displayed_corresponing_to_an_assignment(AssignmentSubmission.java:97)
+	at ✽.Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(E:/Selenium Project Folder/WorkBook 4/CucumberSeleniumDemo/src/main/java/com/qa/features/AssignmentSubmission.feature:48)
+]]></failure>
+</testcase>
+</testsuite>

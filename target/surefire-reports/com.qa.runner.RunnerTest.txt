@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 48, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 126.102 sec <<< FAILURE!
+Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(Scenario: Recall assignment)  Time elapsed: 0 sec  <<< ERROR!
+com.qa.utils.TestCaseFailed: Text Not Matched, Actual text is:Pending
+	at com.qa.utils.ValidationMethods.validateElementText(ValidationMethods.java:106)
+	at com.qa.pages.AssignmentSubmissionPage.validatePendingFlag(AssignmentSubmissionPage.java:61)
+	at com.qa.stepDefinition.AssignmentSubmission.an_assignment_is_recalled_and_pending_flag_is_displayed_corresponing_to_an_assignment(AssignmentSubmission.java:97)
+	at ?.Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(E:/Selenium Project Folder/WorkBook 4/CucumberSeleniumDemo/src/main/java/com/qa/features/AssignmentSubmission.feature:48)
+
+Scenario: Recall assignment  Time elapsed: 0 sec  <<< ERROR!
+com.qa.utils.TestCaseFailed: Text Not Matched, Actual text is:Pending
+	at com.qa.utils.ValidationMethods.validateElementText(ValidationMethods.java:106)
+	at com.qa.pages.AssignmentSubmissionPage.validatePendingFlag(AssignmentSubmissionPage.java:61)
+	at com.qa.stepDefinition.AssignmentSubmission.an_assignment_is_recalled_and_pending_flag_is_displayed_corresponing_to_an_assignment(AssignmentSubmission.java:97)
+	at ?.Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(E:/Selenium Project Folder/WorkBook 4/CucumberSeleniumDemo/src/main/java/com/qa/features/AssignmentSubmission.feature:48)
+

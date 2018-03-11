@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="48" failures="0" name="com.qa.runner.RunnerTest" time="0.011" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Selenium Project Folder\WorkBook 4\CucumberSeleniumDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Selenium Project Folder\WorkBook 4\CucumberSeleniumDemo"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\akakkar\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Selenium Project Folder\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Git\cmd;E:\Selenium Project Folder\apache-maven-3.5.2\bin;E:\Selenium Project Folder\apache-maven-3.5.2\lib;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\lib;C:\Program Files\apache-maven\bin;C:\Users\akakkar\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="E:\Selenium Project Folder\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="E:\Selenium Project Folder\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\akakkar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="aKakkar"/>
+    <property name="java.class.path" value="E:\Selenium Project Folder\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Selenium Project Folder\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Test login with invalid cerdentials" name="Given Open browser Firefox and start browser" time="0.004"/>
+  <testcase classname="Scenario: Test login with invalid cerdentials" name="When I enter invalid &quot;akakkar&quot; and invalid &quot;t3stf1rst&quot;" time="0"/>
+  <testcase classname="Scenario: Test login with invalid cerdentials" name="Then On clicking &apos;Login&apos; button, an error message &apos;Invalid Username/Password&apos; is displayed to the user." time="0"/>
+  <testcase classname="Scenario: Test login with invalid cerdentials" name="Scenario: Test login with invalid cerdentials" time="0"/>
+  <testcase classname="Scenario: Test login with valid username and invalid password" name="When I enter valid &quot;akakkar0000&quot; and invalid &quot;123456&quot;" time="0"/>
+  <testcase classname="Scenario: Test login with valid username and invalid password" name="Then on clicking login button, an error message invalid username/password is displayed." time="0"/>
+  <testcase classname="Scenario: Test login with valid username and invalid password" name="Scenario: Test login with valid username and invalid password" time="0"/>
+  <testcase classname="Scenario: Test login with valid username and invalid password" name="When I enter invalid &quot;akakkar&quot; and valid &quot;t3stf1rst&quot;" time="0"/>
+  <testcase classname="Scenario: Test login with valid username and invalid password" name="Then on clicking login button2, an error message invalid username/password is displayed." time="0"/>
+  <testcase classname="Scenario: Test login with valid username and invalid password" name="Scenario: Test login with valid username and invalid password" time="0"/>
+  <testcase classname="Scenario: Test login with valid cerdentials" name="When I enters valid &quot;odobbs&quot; and valid &quot;t3stf1rst&quot;" time="0"/>
+  <testcase classname="Scenario: Test login with valid cerdentials" name="Then user should be able to login successfully and Home text is displayed as a header of the page." time="0"/>
+  <testcase classname="Scenario: Test login with valid cerdentials" name="And verify page title and url." time="0"/>
+  <testcase classname="Scenario: Test login with valid cerdentials" name="And close driver." time="0"/>
+  <testcase classname="Scenario: Test login with valid cerdentials" name="Scenario: Test login with valid cerdentials" time="0.002"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Given Open browser and login to the application." time="0"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="When User clicks &apos;Courses&apos; sidemenu" time="0"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Then Application navigates to Courses &gt; My Courses sie menu" time="0"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="When User clicks &apos;Coursework&apos; sidemenu." time="0"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Then Application navigates to &apos;Assignments&apos; side menu" time="0"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="And Assignment is displayed on the page and name of assignment is in link form" time="0"/>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Given I am on assignment side menu" time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="When I clicked on name of an assignment" time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Then application navigates and displayed assignment details page" time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="When I clicked select button corresponing to an artifact" time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Then An artifact form is displayed in non editable mode" time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Scenario: Check whether user has attached an artifact within assignment" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Given I am on the Form page" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="When I selected date for &apos;Date&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I input value for &apos;Decimal&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select radio button for &apos;Likert&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select value from &apos;Dropdown&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I upload file for &apos;File&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select radio dutton for &apos;Radio&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And i select check box for &apos;Checkbox&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select first radio button for &apos;Rubric&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select second radio button for &apos;Rubric&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I input text in &apos;Single Line Text&apos; tupe entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I press &quot;Add&quot; button" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Then I should see &quot;Form saved&quot; and application navigates to Assignment details page." time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Then I submiited the assignment" time="0.002"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And select yes for the submission alert message" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Scenario: Enter data in the form and save it" time="0.003"/>
+  <testcase classname="Scenario: Recall assignment" name="When I selected checkbox corresponding to an assignment" time="0"/>
+  <testcase classname="Scenario: Recall assignment" name="And click &apos;Recall&apos; button" time="0"/>
+  <testcase classname="Scenario: Recall assignment" name="Then An assignment is recalled and pending flag is displayed corresponing to an assignment." time="0">
+    <error message="Text Not Matched, Actual text is:Pending" type="com.qa.utils.TestCaseFailed">com.qa.utils.TestCaseFailed: Text Not Matched, Actual text is:Pending
+	at com.qa.utils.ValidationMethods.validateElementText(ValidationMethods.java:106)
+	at com.qa.pages.AssignmentSubmissionPage.validatePendingFlag(AssignmentSubmissionPage.java:61)
+	at com.qa.stepDefinition.AssignmentSubmission.an_assignment_is_recalled_and_pending_flag_is_displayed_corresponing_to_an_assignment(AssignmentSubmission.java:97)
+	at ✽.Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(E:/Selenium Project Folder/WorkBook 4/CucumberSeleniumDemo/src/main/java/com/qa/features/AssignmentSubmission.feature:48)
+</error>
+    <system-out>********************************
+****
+E:\Selenium Project Folder\WorkBook 4\CucumberSeleniumDemo\Screenshots\screenshot1514894062128.png
+********************************
+</system-out>
+    <system-err>Jan 02, 2018 5:24:21 PM com.qa.utils.Log info
+INFO: verify pending flag.
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: Recall assignment" name="Scenario: Recall assignment" time="0">
+    <error message="Text Not Matched, Actual text is:Pending" type="com.qa.utils.TestCaseFailed">com.qa.utils.TestCaseFailed: Text Not Matched, Actual text is:Pending
+	at com.qa.utils.ValidationMethods.validateElementText(ValidationMethods.java:106)
+	at com.qa.pages.AssignmentSubmissionPage.validatePendingFlag(AssignmentSubmissionPage.java:61)
+	at com.qa.stepDefinition.AssignmentSubmission.an_assignment_is_recalled_and_pending_flag_is_displayed_corresponing_to_an_assignment(AssignmentSubmission.java:97)
+	at ✽.Then An assignment is recalled and pending flag is displayed corresponing to an assignment.(E:/Selenium Project Folder/WorkBook 4/CucumberSeleniumDemo/src/main/java/com/qa/features/AssignmentSubmission.feature:48)
+</error>
+  </testcase>
+</testsuite>
